@@ -1,0 +1,25 @@
+body{
+   background-color: darkgrey;
+  
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    color: black;
+}
+
+#resultado{
+    border-style: solid;
+    box-sizing: border-box;
+    border-color: rgb(70, 81, 92);
+    padding: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 10px;
+   
+  
+    
+}

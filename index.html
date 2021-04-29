@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagem Oculta</title>
+    <script src="mensagem.js"></script>
+    <link rel="stylesheet" href="mensagem.css">
+</head>
+<body>
+
+    <h1>Mensagem Oculta</h1>
+    
+    <h5>Digite a sua mensagem</h5>
+    <input type="text" id="texto">
+    <select id="tipoEncriptacao">
+    
+       <option value="selecione" disabled selected>Selecione</option>
+        <option value="cifradecesar" >Cifra de César</option>
+        <option value="base64">Base 64</option>
+
+    </select>
+
+    <label for="codificaroudecodificar">Codificar ou decodificar?</label>
+    <input type="radio" name="codificacao" id="codificar">
+    <label for="codificar">Codificar</label>
+    <input type="radio" name="decodificacao" id="decodificar">
+    <label for="decodificar">Decodificar</label>
+    <button id="enviar" onclick="codifica()">Enviar</button>
+    <label>Chave</label>
+    <input type="number" id="numero">
+    <div id="resultado">Confira seu resultado:</div>
+   
+ 
+    
+        
+</body>
+</html>
